@@ -1,0 +1,19 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "com.origamicircuit.integrateddynamicscreatecompat.mixin",
+    "compatibilityLevel": "JAVA_17",
+    "refmap": "integrated_dynamics_create_compat.refmap.json",
+    "mixins": [
+        "CreateContraptionsMixin",
+        "IntegratedDynamicsCableBlockMixin",
+        "IntegratedDynamicsCableHelpersMixin",
+        "CreateSymmetryHandlerMixin",
+        "IntegratedDynamicsCableBlockItemMixin",
+        "IntegratedDynamicsPartItemMixin"
+    ],
+    "client": [],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}
